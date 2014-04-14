@@ -1,0 +1,1 @@
+#pragma once//Global Sizestypedef enum{	IO_PATH_LEN = 0x400,	EXTDATA_FS_MAX_PATH_LEN = 0x100} global_sizes;typedef enum{	WIN_32 = 0x5C,	UNIX = 0x2F} platform;
