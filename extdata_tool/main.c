@@ -573,14 +573,14 @@ int main(int argc, char *argv[])
 
 void app_title(void)
 {
-	printf("CTR_Toolkit - Extra Data Tool\n");
+	printf("CTR Extra Data Tool\n");
 	printf("(C) 3DSGuy 2013\n");
 }
 
 void help(char *app_name)
 {
 	app_title();
-	printf("Usage: %s [options]\n", app_name);
+	printf("Usage: %s [options ...]\n", app_name);
 	putchar('\n');
 	printf("OPTIONS                 Possible Values       Explanation\n");
 	printf(" -i, --image=           File-in               Specify input Extdata\n");
